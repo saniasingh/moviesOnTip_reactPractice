@@ -1,0 +1,57 @@
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.movie-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.movie-title {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.add-favorite,
+.remove-favorite {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.add-favorite {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.add-favorite:hover {
+  background-color: #218838;
+}
+
+.remove-favorite {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.remove-favorite:hover {
+  background-color: #c82333;
+}
